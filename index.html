@@ -7,6 +7,10 @@
     <!-- Daisy & Tailwind CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- GooGle Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Custom TailClass -->
     <script>
         tailwind.config = {
@@ -21,6 +25,9 @@
       </script>
       <!-- Custom Style  -->
       <style>
+        *{
+          font-family: 'Manrope', sans-serif;
+        }
         .cbtn{
             padding: 0.7rem 2.25rem;
             width: 230px;
@@ -37,7 +44,7 @@
             border: 2px solid #FF4240;
             background: transparent;
             color: black;
-            transform: scale(1.08);
+            transform: scale(1.06);
         }
         @media screen and (max-width:600px) {
             .cbtn{
@@ -123,10 +130,10 @@
                   </div>
                 </div>
             </div>
-            <div class=" w-[98%] mx-auto lg:w-[46%] py-9 px-7 lg:mr-12 lg:ml-auto bg-black flex lg:-translate-y-56 opacity-90 flex-col text-white space-y-3 rounded-2xl lg:text-left text-center">
+            <div class=" w-[98%] mx-auto lg:w-[46%] py-9 px-7 lg:mr-12 lg:ml-auto bg-black flex lg:-translate-y-60 opacity-90 flex-col text-white space-y-3 rounded-2xl lg:text-left text-center">
                 <h1 class="text-xl lg:text-3xl font-semibold">Meet all the heroes from the field</h1>
                 <p class="text-sm lg:text-base opacity-70">
-                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. 
+                  The Men's 1s squad is stacked with talented players, most of <br> whom are past or current junior and senior internationals, <br> having represented their countries at major tournaments such as the Olympic <br> and Commonwealth Games. 
                 </p>
             </div>
         </section>
@@ -139,31 +146,32 @@
                 <h1 class="text-2xl lg:text-6xl font-bold">
                     Professional Hockeys Club
                 </h1>
-                <p>
-                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+                <p class="font-medium opacity-70">
+                  Our club has a long history of international and Olympic players, including the 1996 Olympians <br> Jason Laslett, Calum Giles, Ali Wilson, and Matt Daly. 
                 </p>
             </div>
             <hr class="my-9" style="border: 1px dashed #D0D0D1;">
+            <!-- Professional's  -->
             <div class="flex lg:flex-row flex-col justify-around gap-7 mt-9 items-center">
                 <div class="space-y-4 py-7 px-6">
                     <div class="radial-progress text-[#FF4240] text-primary" style="--value:87;" role="progressbar"><h1 class="text-xl text-black font-bold">87%</h1></div>          
                     <h2 class="text-2xl font-bold">Prayer Facility</h2>     
-                    <p class="font-medium opacity-80">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                    <p class="font-medium opacity-80">Multi-faith facilities are available and<br>designated for religious activities such<br>as individualor group worship, quiet <br> meditation, etc.</p>
                 </div>
                 <div class="space-y-4 py-7 px-6">
-                    <div class="radial-progress text-[#49D293] text-primary" style="--value:95;" role="progressbar"><h1 class="text-xl text-black font-bold">95%</h1></div>          
+                    <div class="radial-progress text-[#49D293] text-primary" style="--value:94;" blur-[1px] role="progressbar"><h1 class="text-xl text-black font-bold">95%</h1></div>          
                     <h2 class="text-2xl font-bold">Experienced Coach</h2>     
-                    <p class="font-medium opacity-80">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                    <p class="font-medium opacity-80">All our coaches aren't only <br>seasoned professionals in hockey,all<br>have to go through tests before being appointedas <br> part of our team.</p>
                 </div>
                 <div class="space-y-4 py-7 px-6">
                     <div class="radial-progress text-[#FFB546] text-primary" style="--value:90;" role="progressbar"><h1 class="text-xl text-black font-bold">90%</h1></div>          
                     <h2 class="text-2xl font-bold">Senior Player</h2>     
-                    <p class="font-medium opacity-80">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                    <p class="font-medium opacity-80">Our club welcomes new members <br>to the senior hockey section; If <br> you're returning to hockey, try the game <br> out if you've never played hockey before.</p>
                 </div>
                 <div class="space-y-4 py-7 px-6">
                     <div class="radial-progress text-[#4C8DF1] text-primary" style="--value:80;" role="progressbar"><h1 class="text-xl text-black font-bold">80%</h1></div>          
                     <h2 class="text-2xl font-bold">Training Ground</h2>     
-                    <p class="font-medium opacity-80">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+                    <p class="font-medium opacity-80">All teams get to play on the <br>Olympic stadium pitch at least once <br> a year with the higher teams playing there <br> more frequently.</p>
                 </div>
             </div>
         </section>
@@ -174,7 +182,7 @@
                 <h1 class="text-2xl lg:text-6xl font-bold">
                     Program Sections
                 </h1>
-                <p>
+                <p class="font-medium opacity-70">
                     Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
                 </p>
             </div>
@@ -186,8 +194,7 @@
                 <div class="flex flex-col items-center lg:items-start text-center lg:text-left mx-3 lg:pl-9 pt-9 lg:pt-14 text-white space-y-5">
                   <h1 class="text-2xl lg:text-4xl font-bold">Junior Program</h1>
                   <p class="text-base font-semibold opacity-70 lg:font-normal">
-                    Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.
+                    Find out about all the available options for juniors<br>  within a club environment, there is something for <br> all ages and abilities
                   </p>
                   <button class="cbtn">Register Now!</button>
                 </div>
@@ -195,10 +202,9 @@
               <!-- 2nd Program  -->
               <div class="w-full bg-no-repeat bg-cover rounded-3xl h-[300px]" style="background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),url('./resources/3.png');">
                 <div class="flex flex-col items-center lg:items-start text-center lg:text-left mx-3 lg:pl-9 pt-9 lg:pt-14 text-white space-y-5">
-                  <h1 class="text-2xl lg:text-4xl font-bold">Junior Program</h1>
+                  <h1 class="text-2xl lg:text-4xl font-bold">Teenager Program</h1>
                   <p class="text-base font-semibold opacity-70 lg:font-normal">
-                    Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.
+                    There are lots of option available depending on your age, <br> ability and strong playing ability, in line <br> with the Academy's aims
                   </p>
                   <button class="cbtn">Register Now!</button>
                 </div>
@@ -206,10 +212,9 @@
               <!-- 3rd Program  -->
               <div class="w-full bg-no-repeat bg-cover lg:col-span-2 rounded-3xl h-[300px] lg:h-[450px]" style="background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),url('./resources/4.png');">
                 <div class="flex flex-col items-center lg:items-start mx-3 lg:pl-9 pt-9 lg:pt-40 text-center lg:text-left text-white space-y-5">
-                  <h1 class="text-2xl lg:text-4xl font-bold">Junior Program</h1>
+                  <h1 class="text-2xl lg:text-4xl font-bold">Professional Program</h1>
                   <p class="text-base font-semibold opacity-70 lg:font-normal">
-                    Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.
+                    With a senior section of this size we're able <br> to cater for all abilities, so if you're a seasoned pro or a <br> beginner, we've got a team for you!
                   </p>
                   <button class="cbtn mt-4 lg:mt-5">Register Now!</button>
                 </div>
@@ -223,32 +228,312 @@
                 <h1 class="text-2xl lg:text-6xl font-bold">
                   Our New Products
                 </h1>
-                <p>
-                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+                <p class="font-medium opacity-70">
+                  ELEVATE YOUR SHOPPING EXPERIENCE AT MONKEYSPORTS WITH IN-STORE PICK-UP!
                 </p>
             </div>
             <hr class="my-9" style="border: 1px dashed #D0D0D1;">
             <!-- ProDucts  -->
-            <div>
+            <div class="w-[95%] lg:w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
               <!-- 1st ProDuct  -->
-              <div class="flex gap-4 py-3 px-2 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
-                <div> <img src="./resources/5.png" alt=""></div>
-                <div class="space-y-4 pt-3 w-full">
+              <div class="flex lg:flex-row flex-col items-center text-center gap-4 py-4 px-4 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
+                <div> <img class="w-[350px] lg:w-full" src="./resources/5.png" alt=""></div>
+                <div class="flex flex-col items-center lg:items-start space-y-4 pt-1">
                   <div class="flex gap-5">
                     <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/star.png" alt="">5.0</span>
                     <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/eye.png" alt="">20</span>
                     <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/love.png" alt="">200</span>
                   </div>
-                  <h3>World Cup Flags Football</h3>
-                  <p class="text-base font-normal opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                  <div class="flex gap-3">
+                  <h3 class="text-2xl font-extrabold">Trending Versity Jacket</h3>
+                  <p class="text-base font-medium opacity-70">Men's Varsity Hockey College Letterman High School Bomber.</p>
+                  <div class="flex flex-col items-center lg:flex-row gap-3">
                     <h4 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h4>
-                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee : Free</span>
+                    <span class="flex gap-2 items-center text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee: Free</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 2nd ProDuct -->
+              <div class="flex lg:flex-row flex-col items-center gap-4 py-4 px-4 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
+                <div> <img class="w-[350px] lg:w-full" src="./resources/6.png" alt=""></div>
+                <div class="flex flex-col items-center text-center lg:items-start space-y-4 pt-1">
+                  <div class="flex gap-5">
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/star.png" alt="">5.0</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/eye.png" alt="">20</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/love.png" alt="">200</span>
+                  </div>
+                  <h3 class="text-2xl font-extrabold">World Cup Flags ball</h3>
+                  <p class="text-base font-medium opacity-70"> Our World Cup is maded with high Quality material.</p>
+                  <div class="flex flex-col items-center lg:flex-row gap-3">
+                    <h4 class="text-lg font-extrabold text-[#FF4240]">Price - $19.00</h4>
+                    <span class="flex gap-2 items-center text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee: Free</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 3rd ProDuct -->
+              <div class="flex lg:flex-row flex-col items-center gap-4 py-4 px-4 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
+                <div> <img class="w-[350px] lg:w-full" src="./resources/7.png" alt=""></div>
+                <div class="flex flex-col items-center text-center lg:items-start space-y-4 pt-1">
+                  <div class="flex gap-5">
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/star.png" alt="">5.0</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/eye.png" alt="">20</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/love.png" alt="">200</span>
+                  </div>
+                  <h3 class="text-2xl font-extrabold">High Quality Cap</h3>
+                  <p class="text-base font-medium opacity-70">Flexfit Men's Pro-Baseball on Field</p>
+                  <div class="flex flex-col items-center lg:flex-row gap-3">
+                    <h4 class="text-lg font-extrabold text-[#FF4240]">Price - $12.74</h4>
+                    <span class="flex gap-2 items-center text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee: Free</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 4th ProDuct -->
+              <div class="flex lg:flex-row flex-col items-center gap-4 py-4 px-4 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
+                <div> <img class="w-[350px] lg:w-full" src="./resources/8.png" alt=""></div>
+                <div class="flex flex-col items-center text-center lg:items-start space-y-4 pt-1">
+                  <div class="flex gap-5">
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/star.png" alt="">5.0</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/eye.png" alt="">20</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/love.png" alt="">200</span>
+                  </div>
+                  <h3 class="text-2xl font-extrabold">Classic Jersey</h3>
+                  <p class="text-base font-medium opacity-70">Pro Quality Jerseys Ready to Customize with Names and Numbers </p>
+                  <div class="flex flex-col items-center lg:flex-row gap-3">
+                    <h4 class="text-lg font-extrabold text-[#FF4240]">Price - $19.32</h4>
+                    <span class="flex gap-2 items-center text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee: Free</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 5th ProDuct -->
+              <div class="flex lg:flex-row flex-col items-center gap-4 py-4 px-4 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
+                <div> <img class="w-[350px] lg:w-full" src="./resources/9.png" alt=""></div>
+                <div class="flex flex-col items-center text-center lg:items-start space-y-4 pt-1">
+                  <div class="flex gap-5">
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/star.png" alt="">5.0</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/eye.png" alt="">20</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/love.png" alt="">200</span>
+                  </div>
+                  <h3 class="text-2xl font-extrabold">Best Quality Helmet</h3>
+                  <p class="text-base font-medium opacity-70">Warrior Covert PX2 Pro Stock Hockey Helmet </p>
+                  <div class="flex flex-col items-center lg:flex-row gap-3">
+                    <h4 class="text-lg font-extrabold text-[#FF4240]">Price - $31.14</h4>
+                    <span class="flex gap-2 items-center text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee: Free</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 6th ProDuct -->
+              <div class="flex lg:flex-row flex-col items-center gap-4 py-4 px-4 rounded-xl shadow-xl" style="border: 1px solid #E7E7E8;">
+                <div> <img class="w-[350px] lg:w-full" src="./resources/10.png" alt=""></div>
+                <div class="flex flex-col items-center text-center lg:items-start space-y-4 pt-1">
+                  <div class="flex gap-5">
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/star.png" alt="">5.0</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/eye.png" alt="">20</span>
+                    <span class="flex gap-2 text-base font-bold opacity-70"><img src="./resources/icons/love.png" alt="">200</span>
+                  </div>
+                  <h3 class="text-2xl font-extrabold">New Arrival</h3>
+                  <p class="text-base font-medium opacity-70">uniox-adult FIFA World Cup Qatar 2022 Al Rihla Pro Soccer Ball</p>
+                  <div class="flex flex-col items-center lg:flex-row gap-3">
+                    <h4 class="text-lg font-extrabold text-[#FF4240]">Price - $17.03</h4>
+                    <span class="flex gap-2 items-center text-base font-bold opacity-70"><img src="./resources/icons/cart.png" alt="">Delivery Fee: Free</span>
                   </div>
                 </div>
               </div>
             </div>
         </section>
+        <!-- Client Area  -->
+        <section class="mt-16">
+          <hr class="mb-9" style="border: 1px dashed #D0D0D1;">
+            <div class="space-y-6 text-center">
+                <h1 class="text-2xl lg:text-6xl font-bold">
+                  Client's Question
+                </h1>
+                <p class="font-medium opacity-70">
+                  Everything you want to know.Read and Learn More About Us also <br> about you favourate Hockey.
+                </p>
+            </div>
+            <hr class="my-9" style="border: 1px dashed #D0D0D1;">
+            <!-- Client Questions  -->
+            <div class="w-[95%] lg:w-full mx-auto py-5 px-5 flex flex-col lg:flex-row gap-6 rounded-xl" style="border: 1px solid #D0D0D1;">
+              <div class=" lg:w-[35%]">
+                <img class="w-full" src="./resources/11.png" alt="">
+              </div>
+              <hr class=" flex lg:hidden">
+              <!-- QuesTion's  -->
+              <div class="flex-1">
+                <!-- 1st Question -->
+                <div class="collapse collapse-plus py-2 rounded-none">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="font-medium opacity-70">We have almost every world class equipment, you just need to use them</p>
+                  </div>
+                </div>
+                <hr class="my-[2px] opacity-30 w-[97%] blur-[1px] mx-auto" style="border: 1px solid #D0D0D1;">
+                <!-- 2nd Question -->
+                <div class="collapse collapse-plus py-2 rounded-none">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="font-medium opacity-70">We do 3 session practice everyday 7 day's aweek</p>
+                  </div>
+                </div>
+                <hr class="my-[2px] opacity-30 w-[97%] blur-[1px] mx-auto" style="border: 1px solid #D0D0D1;">
+                <!-- 3rd Question -->
+                <div class="collapse collapse-plus py-2 rounded-none">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="font-medium opacity-70">You join in side by side so you can learn from me"</p>
+                  </div>
+                </div>
+                <hr class="my-[2px] opacity-30 w-[97%] blur-[1px] mx-auto" style="border: 1px solid #D0D0D1;">
+                <!-- 4th Question -->
+                <div class="collapse collapse-plus py-2 rounded-none">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Ski Touring
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="font-medium opacity-70">We will also train you skiing for Free</p>
+                  </div>
+                </div>
+                <hr class="my-[2px] opacity-30 w-[97%] blur-[1px] mx-auto" style="border: 1px solid #D0D0D1;">
+                <!-- 5th Question -->
+                <div class="collapse collapse-plus py-2 rounded-none">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Booking
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="font-medium opacity-70">You can book your session any time as you wish</p>
+                  </div>
+                </div>
+                <hr class="my-[2px] opacity-30 w-[97%] blur-[1px] mx-auto" style="border: 1px solid #D0D0D1;">
+                <!-- 6th Question -->
+                <div class="collapse collapse-plus py-2 rounded-none">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Pricings
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="font-medium opacity-70">We have Seseonal Discount's.You just keep your eye on</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Get In Touch Area  -->
+        <section class="mt-16">
+          <hr class="mb-9" style="border: 1px dashed #D0D0D1;">
+            <div class="space-y-6 text-center">
+                <h1 class="text-2xl lg:text-6xl font-bold">
+                  Get In Touch
+                </h1>
+                <p class="font-medium opacity-70">
+                    Subcribe our blog and learn about recent updates,news,discount,practice-timing
+                </p>
+            </div>
+            <hr class="my-9" style="border: 1px dashed #D0D0D1;">
+            <!-- Touch Area  -->
+            <div class="flex flex-col lg:flex-row gap-7 mt-9">
+              <!-- Touch Left  -->
+              <div class="flex flex-col gap-6 w-[96%] mx-auto lg:w-[40%] shadow-md px-4 py-4 rounded-xl" style="border: 1px solid #E7E7E8;">
+                <!-- Number  -->
+                <div class="flex items-start space-y-3 flex-col rounded-xl py-9 px-5 bg-[#F8FDF0]">
+                  <img src="./resources/Group 1171275317.png" alt="">
+                  <p class="text-lg font-semibold opacity-70">Phone Number : </p>
+                  <h3 class="text-2xl font-extrabold">(+62) 123-321-543</h3>
+                </div>
+                <!-- Email  -->
+                <div class="flex items-start space-y-3 flex-col rounded-xl py-9 px-5 bg-[#FFFCEF]">
+                  <img src="./resources/Group 1171275318.png" alt="">
+                  <p class="text-lg font-semibold opacity-70">Phone Number : </p>
+                  <h3 class="text-2xl font-extrabold">(+62) 123-321-543</h3>
+                </div>
+                <!-- Map  -->
+                <div class="flex items-start space-y-3 flex-col rounded-xl py-9 px-5 bg-[#EFF5FE]">
+                  <img src="./resources/Group 1171275321.png" alt="">
+                  <p class="text-lg font-semibold opacity-70">Phone Number : </p>
+                <h3 class="text-2xl font-extrabold">(+62) 123-321-543</h3>
+                </div>
+              </div>    
+              <!-- Touch Right  -->
+              <div class="flex flex-col w-[96%] mx-auto lg:w-[58%] space-y-4">
+                <!-- Regular Input Area  -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  <div class="space-y-3">
+                    <h2 class="font-bold text-xl">Your Name</h2>
+                    <input type="text" placeholder="Enter your full name" class="input input-bordered font-medium w-full" />
+                  </div>
+                  <div class="space-y-3">
+                    <h2 class="font-bold text-xl">Your Email</h2>
+                    <input type="email" placeholder="Enter your email" class="input input-bordered font-medium w-full" />
+                  </div>
+                  <div class="space-y-3">
+                    <h2 class="font-bold text-xl">Subject</h2>
+                    <input type="text" placeholder="Enter your subject" class="input input-bordered font-medium w-full" />
+                  </div>
+                  <div class="space-y-3">
+                    <h2 class="font-bold text-xl">Phone Number</h2>
+                    <input type="number" placeholder="Enter your phone number" class="input input-bordered font-medium w-full" />
+                  </div>
+                </div>
+                <!-- TextArea  -->
+                <div class="space-y-3">
+                  <h2 class="font-bold text-xl">Message</h2>
+                  <textarea placeholder="Write your message" class="textarea textarea-bordered font-medium text-base h-[200px] lg:h-[370px] w-full" ></textarea>
+                </div>
+                <button class="cbtn w-full">Send Message</button>
+              </div>
+            </div>   
+            <!-- Social Area  -->
+            <div class="mt-14 w-[95%] mx-auto shadow-md lg:w-full space-y-7 py-9 bg-[#F8F8F8] rounded-2xl">
+              <h1 class="text-3xl font-bold flex flex-col text-center">Social Media</h1>
+              <img class="md:w-2/6 lg:w-[14%] mx-auto" src="./resources/icons/Social.png" alt="">
+            </div>
+        </section>
     </main>
+    <footer class="mt-20 bg-[#131318]">
+      <section class="container mx-auto">
+        <div class="footer py-16 bg-[#131318] flex flex-col justify-between lg:flex-row items-center text-white text-base-content">
+          <aside class="flex flex-col items-center lg:items-start ">
+            <h1 class="text-2xl font-bold">Get In Touch</h1>
+            <p class="text-center lg:text-left opacity-80">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+            <span class="flex items-center gap-2"><img src="./resources/icons/msg.png" alt="">hockeys@support.com</span>
+            <span class="flex items-center gap-2"><img src="./resources/icons/phone.png" alt="">(+62) 123-321-543</span>
+          </aside> 
+          <div class="flex gap-16 lg:space-x-56">
+            <nav class="flex flex-col space-y-2 items-center lg:items-start">
+              <header class="text-xl font-semibold">Company</header> 
+              <a class="link link-hover opacity-75">About us</a>
+              <a class="link link-hover opacity-75">Leadership</a>
+              <a class="link link-hover opacity-75">Careers</a>
+              <a class="link link-hover opacity-75">News & Article</a>
+              <a class="link link-hover opacity-75">Legal Notice</a>
+            </nav> 
+            <nav class="flex flex-col space-y-2 items-center lg:items-start">
+              <header class="text-xl font-semibold">Support</header> 
+              <a class="link link-hover opacity-75">Help Center</a>
+              <a class="link link-hover opacity-75">FAQ</a>
+              <a class="link link-hover opacity-75">Ticket Suppor</a>
+              <a class="link link-hover opacity-75">Contact Us</a>
+            </nav> 
+          </div>
+          <nav class="flex flex-col items-center lg:items-start">
+            <header class="text-xl font-semibold">Services</header> 
+            <a class="link link-hover opacity-75">Academy</a>
+            <a class="link link-hover opacity-75">Group Lesson</a>
+            <a class="link link-hover opacity-75">Private Lesson</a>
+            <a class="link link-hover opacity-75">Hockeys for kids</a>
+            <a class="link link-hover opacity-75">Hockeys for Adult</a>
+          </nav>
+        </div>
+      </section>
+    </footer>
 </body>
 </html>
